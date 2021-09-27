@@ -1,3 +1,5 @@
+
+
 .header-top{
   text-decoration:none;
   display:flex;
@@ -18,10 +20,6 @@
 
 .header-contents{
   display:flex;
-}
-
-li:not(:last-child) {
-  margin-right: 30px;
 }
 
 .header-main{
@@ -327,6 +325,7 @@ table td {
   border: 1px solid #ccc;
   padding: 20px;
 }
+
 table th {
   text-align:left;
   font-weight: bold;
@@ -335,15 +334,13 @@ table th {
 
 .form{
   list-style:none;
-  display:flex;
-  justify-content: space-between;
+  display: flex;
   width:100%;
   margin-top:50px;
   position:relative;
 }
 
 .form-img{
-  width:100%;
 }
 
 .form-1{
@@ -353,9 +350,6 @@ table th {
   color:white;
 }
 
-.form-img2{
-  width:100%;
-}
 
 .form-2{
   position:absolute;
@@ -387,7 +381,14 @@ table th {
 }
 
 .form-5::before{
-  background: url(../img/mailicon.svg) no-repeat;
+  content: "";
+  background: url(../img/mailicon.svg);
+  background-size: cover;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right:30px;
 }
 
 .footer{
