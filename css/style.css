@@ -334,13 +334,15 @@ table th {
 
 .form{
   list-style:none;
-  display: flex;
-  width:100%;
+  display:flex;
   margin-top:50px;
   position:relative;
+  width:100%;
 }
 
 .form-img{
+  display: inline;
+  width:50vw;
 }
 
 .form-1{
